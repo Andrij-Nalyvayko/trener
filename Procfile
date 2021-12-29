@@ -1,1 +1,1 @@
-web: node ./server/src/main.ts
+web: nest ./server/src/main.ts
