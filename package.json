@@ -5,8 +5,6 @@
   "main": "app.js",
   "devDependencies": {},
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
     "start": "next start -p $PORT"
   },
   "author": "",
