@@ -5,7 +5,7 @@
   "main": "server/src/main.ts",
   "devDependencies": {},
   "scripts": {
-    "start": "nest ./server/src/main.ts"
+    "start": "node ./server/src/main.ts"
   },
   "author": "",
   "license": "ISC",
