@@ -5,7 +5,10 @@
   "main": "server/src/main.ts",
   "devDependencies": {},
   "scripts": {
-    "start": "node ./server/src/main.ts"
+    "start": "nest start",
+    "start:dev": "NODE_ENV=dev npm run start",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main"
   },
   "author": "",
   "license": "ISC",
