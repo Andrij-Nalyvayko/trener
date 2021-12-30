@@ -6,9 +6,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "nest start",
+    "start:prod": "node server/src/main.ts",
     "start:dev": "NODE_ENV=dev npm run start",
     "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main"
   },
   "author": "",
   "license": "ISC",
